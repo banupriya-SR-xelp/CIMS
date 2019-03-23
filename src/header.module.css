@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  height: 80px;
+  border-bottom: 2px solid #e6eaea;
+}
+.imageHolder {
+  background: url("./image.png") no-repeat;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  background-size: auto 25px;
+  background-position: center;
+}

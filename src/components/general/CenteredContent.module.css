@@ -1,0 +1,13 @@
+.base{
+    width:100%;
+    height:auto;
+    text-align:center;
+  }
+  .content{
+    width:100%;
+    height:auto;
+    max-width:1200px;
+    display:inline-block;
+    text-align:left;
+   
+  }

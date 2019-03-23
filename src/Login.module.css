@@ -1,0 +1,141 @@
+.nameHolder {
+  margin-bottom: 10px;
+  padding-right: 10px;
+  width: 100%;
+}
+
+.facebookButton {
+  margin-bottom: 10px;
+  padding-right: 5px;
+  width: 100%;
+}
+.googleButton {
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 100%;
+}
+.emailHolder {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.resultHolder {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text{
+  font-size: 20px;
+  color: #212121;
+  width:30% 
+}
+.inputHolder{
+  width: 60%;
+}
+.divideSection {
+  justify-content: space-between;
+  display: flex;
+}
+.divideSectionOne {
+  margin-bottom: 10px;
+  padding-right: 5px;
+  width: 50%;
+  display: inline-block;
+}
+.divideSectionTwo {
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 50%;
+  display: inline-block;
+}
+.heading{
+  font-size: 24px;
+text-align: center;
+margin: 0px 0px 40px 0px;
+text-decoration: underline;
+color: #ff2121;
+font-family: serif;
+}
+.textHolder {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px 0px;
+  text-align: center;
+}
+.rememberText {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+.forgotText {
+  font-size: 11px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.dividingLine {
+  width: 100%;
+  position: relative;
+}
+.dividingLine:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #e6eaea;
+  left: 0;
+  top: 10px;
+}
+.dividingLineMain {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.divideBase {
+  position: relative;
+  width: 100%;
+  height: 30px;
+}
+.mainSection {
+  width: 100%;
+  margin: 100px 0px;
+}
+.commonText {
+  width: 100%;
+  padding: 15px 0px;
+  font-size: 12px;
+  text-align: center;
+}
+.link {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 12px;
+}
+.subHeading {
+  font-size: 22px;
+  text-align: center;
+}
+.loginSection {
+  display: flex;
+  justify-content: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
