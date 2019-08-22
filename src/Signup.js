@@ -17,7 +17,7 @@ export default class Login extends React.Component {
             </div>
           </div>
           <div className={styles.emailHolder}>
-            <Input type="email" placeholder="Email" />
+            <Input type="email" placeholder="Enter Reg.No" />
           </div>
           <div className={styles.emailHolder}>
             <Input placeholder="New Password" />

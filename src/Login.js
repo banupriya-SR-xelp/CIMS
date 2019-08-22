@@ -8,13 +8,11 @@ export default class Login extends React.Component {
     return (
       <div className={styles.mainSection}>
         <div className={styles.emailHolder}>
-          <Input placeholder="Email" />
+          <Input placeholder="Enter Reg.No" />
         </div>
         <div className={styles.emailHolder}>
-          <Input placeholder="New Password" />
+          <Input placeholder="Enter Password" />
         </div>
- 
-
         <Button
           width="100%"
           height="50px"
